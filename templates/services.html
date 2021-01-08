@@ -1,0 +1,24 @@
+{% extends 'basic.html' %}
+{% load static %}
+
+
+{% block title%}
+Servises
+{% endblock title%}
+
+{% block body %}
+
+<div class="grid-row" style="display: flex; flex-direction: row;"> 
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+<div class="container">
+
+<img src="static/img/3.jpg" style="margin-left:120px; margin-top: 50px; border-style:groove;" width="500" height="300">
+<p class="serv"><i>CORN ICE-CREA <br/> ₹50-₹250</i></p>
+</div>
+<div class="container">
+
+<img src="static/img/4.jpg" style="margin-left:120px; margin-top: 50px; border-style:inset;" width="500" height="300">
+<p class="serv2"><i>FLAVOURED ICE-CREAM <br/> ₹100-₹1000</i></p>
+</div>
+</div>
+{% endblock body%}

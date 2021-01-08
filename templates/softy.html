@@ -1,0 +1,42 @@
+{% extends 'basic.html' %}
+{% load static %}
+
+
+{% block title%}
+Softy
+{% endblock title%}
+
+{% block body %}
+
+<div class="grid-row" style="display: flex; flex-direction: row;"> 
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+<div class="container">
+
+<img src="static/img/s3.jpg" style="margin-left:120px; margin-top: 50px; border-style:groove;" width="400" height="200">
+<p class="serv"><u>CORN ICE-CREA <br/> ₹50-₹250</u></p>
+</div>
+<div class="container">
+
+<img src="static/img/s4.jpg" style="margin-left:120px; margin-top: 50px; border-style:inset;" width="400" height="200">
+<p class="serv2"><u>FLAVOURED ICE-CREAM <br/> ₹100-₹1000</u></p>
+</div>
+</div>
+
+<div class="grid-row" style="display: flex; flex-direction: row;"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+    <div class="container">
+    
+    <img src="static/img/s2.jpg" style="margin-left:120px; margin-top: 50px; border-style:groove;" width="200" height="250">
+    <p class="serv3"><u>1. आइसक्रीम को हम मिष्ठान्न  के रूप में खाना खाने के बाद खाते है |
+        <br/>
+        2. आइसक्रीम सबकी मंपसद होती बच्चों से लेकर बड़ो , बुजुर्गों तक |</u></p>
+    </div>
+    <div class="container">
+    
+    <img src="static/img/s1.jpg" style="margin-left:120px; margin-top: 50px; border-style:inset;" width="200" height="250">
+    <p class="serv3"><u>3.आइसक्रीम को हम किसी भी मौसम में खा सकते है |
+        <br/>
+        4. आइसक्रीम को यह डेयरी मिल्क या क्रीम, या सोया, काजू, नारियल या बादाम से बनाया जा सकता है|</u></p>
+    </div>
+    </div>
+{% endblock body%}
